@@ -1,6 +1,10 @@
 import "./styles.css"
-import {fun} from "./home.js"
+import {home} from "./home.js"
+import { menu } from "./menu.js"
 
 const contentDiv = document.querySelector('#content')
-const subDiv = fun()
-contentDiv.append(subDiv)
+const subDivOne = home()
+// contentDiv.append(subDivOne)
+
+const subDivTwo = menu()
+contentDiv.append(subDivTwo)

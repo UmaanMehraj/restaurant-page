@@ -38,16 +38,16 @@ button{
 }
 
 #content{
+    background-color: #c8c7e9;
+    box-shadow: 0px 2px 4px 4px silver;
     margin: 2rem 10rem 2rem 10rem;
 }
 
-#container{
+#content > div{
     display: grid;
     grid-template-rows: 1fr 4fr 2fr;
     justify-items: center;
     align-items: center;
-    background-color: #c8c7e9;
-    box-shadow: 0px 2px 4px 4px silver;
     
 }
 

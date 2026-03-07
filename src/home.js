@@ -1,8 +1,8 @@
 import image from "./img.jpg"
 
-const fun = ()=>{
+const home = ()=>{
     const container = document.createElement('div')
-    container   .setAttribute('id', 'container')
+    container.setAttribute('id', 'container')
 
     const headLine = document.createElement('div')
     headLine.setAttribute('id', 'headLine')
@@ -24,4 +24,4 @@ const fun = ()=>{
     return container
 }
 
-export {fun}
+export {home}
