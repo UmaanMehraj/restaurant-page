@@ -52,8 +52,9 @@ button{
     
 }
 #about{
-    grid-template-rows: repeat(3, 1fr);
     height: 100vh;
+    grid-template-rows: repeat(3, 1fr);
+ 
     
 }
 #about, #home, #menu
@@ -64,6 +65,7 @@ button{
     background-color: #c8c7e9;
     box-shadow: 0px 2px 4px 4px silver;
     border-radius: 2rem;
+
 
 }
 
