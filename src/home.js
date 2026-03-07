@@ -1,8 +1,8 @@
 import image from "./img.jpg"
 
 const home = ()=>{
-    const container = document.createElement('div')
-    container.setAttribute('id', 'container')
+    const containerOne = document.createElement('div')
+    containerOne.setAttribute('id', 'home')
 
     const headLine = document.createElement('div')
     headLine.setAttribute('id', 'headLine')
@@ -19,9 +19,9 @@ const home = ()=>{
     moreText.setAttribute('id', 'headLine')
     moreText.innerText = "At Odin's we commit to hospitality which runs in our blood by tradition!"
 
-    container.append(headLine, imgDiv, moreText)
+    containerOne.append(headLine, imgDiv, moreText)
 
-    return container
+    return containerOne
 }
 
 export {home}

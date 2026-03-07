@@ -38,17 +38,33 @@ button{
 }
 
 #content{
-    background-color: #c8c7e9;
-    box-shadow: 0px 2px 4px 4px silver;
     margin: 2rem 10rem 2rem 10rem;
 }
 
-#content > div{
-    display: grid;
+#home{
     grid-template-rows: 1fr 4fr 2fr;
+
+    
+}
+#menu{
+    grid-template-rows: repeat(2, 1fr);
+
+    
+}
+#about{
+    grid-template-rows: repeat(3, 1fr);
+    height: 100vh;
+    
+}
+#about, #home, #menu
+{
+    display: grid;
     justify-items: center;
     align-items: center;
-    
+    background-color: #c8c7e9;
+    box-shadow: 0px 2px 4px 4px silver;
+    border-radius: 2rem;
+
 }
 
 #headLine{
@@ -65,4 +81,38 @@ img{
 footer{
     color: white;
     font-size: 1.2rem;
+}
+
+.dish{
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(2, 1fr);
+    margin: 2rem;
+    padding: 1rem;
+    height: 20rem;
+    width: 30rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    color: white;
+    box-shadow: 0px 4px 10px 4px rgba(170, 0, 255, 0.251);
+}
+
+.d-img{
+    border: 2px solid green;
+    grid-row: 1/-1;
+    border-radius: 2rem;
+}
+
+.description{
+    grid-row: 1/2;
+}
+.price{
+    grid-row: 2/-1;
+}
+
+.text{
+    width: 30rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
