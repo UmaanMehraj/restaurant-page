@@ -5,36 +5,40 @@
 }
 
 body{
-    background-color: #ffffff;
+   background-color: #f8f0f0;
    color: black;
 }
 
 header, footer{
-    background-color:#5b2333;
+    background-color:#9aaae3;
     backdrop-filter: blur(10px);
     display: flex;
     box-sizing: content-box;
     justify-content: center;
     align-items: center;
     padding: 1.5rem;
-    box-shadow: 0px 0px 2px 2px black;
+    box-shadow: 2px 0px 8px 2px grey;
 
 }
 
 nav {
     display: flex;
 }
-nav >button{
-    justify-self: end;
-}
+
 
 button{
+    font-family: monospace;
     height: 3.5rem;
     width: 15rem;
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.585);
     color: white;
     font-size: 1.2rem;
+}
+button:hover{
+    height: 3.8rem;
+    width: 15.2rem;
+    cursor: pointer;
 }
 
 #content{
@@ -81,7 +85,7 @@ img{
 }
 
 footer{
-    color: white;
+    color: black;
     font-size: 1.2rem;
 }
 
