@@ -6,10 +6,10 @@
 
 body{
     background-color: #ffffff;
-    color: #5b2333;
+   color: black;
 }
 
-header{
+header, footer{
     background-color:#5b2333;
     backdrop-filter: blur(10px);
     display: flex;
@@ -17,6 +17,7 @@ header{
     justify-content: center;
     align-items: center;
     padding: 1.5rem;
+    box-shadow: 0px 0px 2px 2px black;
 
 }
 
@@ -37,21 +38,31 @@ button{
 }
 
 #content{
-    margin: 5rem 10rem 0rem 10rem;
+    margin: 2rem 10rem 2rem 10rem;
 }
 
-#parentDiv{
+#container{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    justify-content: center;
+    grid-template-rows: 1fr 4fr 2fr;
+    justify-items: center;
     align-items: center;
+    background-color: #c8c7e9;
+    box-shadow: 0px 2px 4px 4px silver;
+    
 }
 
 #headLine{
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img{
-    height: 20rem;
-    width: 20rem;
+    box-sizing: border-box;
+    height:75rem;
+    width: auto;
+}
+
+footer{
+    color: white;
+    font-size: 1.2rem;
 }

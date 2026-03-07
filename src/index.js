@@ -1,5 +1,5 @@
 import "./styles.css"
-import {fun} from "./moduleOne.js"
+import {fun} from "./home.js"
 
 const contentDiv = document.querySelector('#content')
 const subDiv = fun()
